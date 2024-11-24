@@ -1,0 +1,38 @@
+{
+  "timeStamp": 1698086790238,
+  "version": "1.52.2",
+  "userSettings": {
+    "importedLists": [],
+    "popupPanelSections": 63
+  },
+  "selectedFilterLists": [
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "https://gsmusbdrivers.com/download-in-progress/?pack=42bf85e14dc95c0ad727255443108b73",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wabetainfo.com",
+    "www.pinloker.com",
+    "www.twitch.tv",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "! 2022-11-20 https://databoks.katadata.co.id\ndataboks.katadata.co.id##.offcanvas-collapse.navbar-collapse\n||music.youtube.com^$csp=worker-src 'none'\n||www.youtube.com^$csp=worker-src 'none'\n"
+}
